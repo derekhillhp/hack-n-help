@@ -4,9 +4,6 @@ end
 
 def recursive_sort unsorted, sorted
 	return sorted if unsorted.length <= 0
-	#if unsorted.length <= 0
-	#	return sorted
-	#end
   
   smallest = unsorted.pop
   still_unsorted = []
