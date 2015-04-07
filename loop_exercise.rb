@@ -4,6 +4,5 @@ contact_list = [
 ]
 contact_list.each do |item|
 	contact = item
-	puts contact
 	puts "Name is: #{contact["name"]} and Phone number is: #{contact["phone_number"]}"
 end
