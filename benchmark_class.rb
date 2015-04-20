@@ -1,5 +1,5 @@
 class Benchmark
-	def run(&block)
+	def run(description, &block)
 		start_time = Time.now
 		block.call
 		end_time = Time.now
@@ -9,7 +9,7 @@ class Benchmark
 end
 
 benchmarker = Benchmark.new
-benchmarker.run do
+benchmarker.run "random description" do
 	5.times do
 		sleep(rand(0.1..1.0))
 	end
