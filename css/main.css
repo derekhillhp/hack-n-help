@@ -1,0 +1,79 @@
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Source Serif Pro', serif;
+	margin: 15px 0;
+	font-size: 1.75em; /* font size is 1.75 times larger than the default */
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+/*************************
+NAVIGATION
+*************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+}
+
+a {
+	color: #6ab47b;
+}
+/* green header */
+header {
+	background: #6ab47b;
+	border-color: #599a68;
+}
+
+h1, h2 {
+	color: #ffffff;
+}
+/* nav background on mobile devices */
+nav {
+	background: #599a68;
+}
+
+nav a, nav a:visited {
+	color: #ffffff;
+}
+
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+/* site body */
+body {
+	background-color: #fff;
+	color: #999;
+}
