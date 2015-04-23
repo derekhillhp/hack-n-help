@@ -1,10 +1,4 @@
-a {
-	text-decoration: none;
-}
 
-body {
-	font-family: 'Open Sans', sans-serif;
-}
 
 #wrapper {
 	max-width: 940px;
@@ -15,6 +9,58 @@ body {
 #logo {
 	text-align: center;
 	margin: 0;
+}
+
+
+/*************************
+NAVIGATION
+*************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+/* nav background on mobile devices */
+nav {
+	background: #599a68;
+}
+
+nav a, nav a:visited {
+	color: #ffffff;
+}
+
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
+
+/*************************
+LINKS
+*************************/
+
+a {
+	color: #6ab47b;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*************************
+HEADER
+*************************/
+
+/* green header */
+header {
+	background: #6ab47b;
+	border-color: #599a68;
+}
+
+h1, h2 {
+	color: #ffffff;
 }
 
 h1 {
@@ -31,15 +77,24 @@ h2 {
 	font-weight: normal;
 }
 
+
 /*************************
-NAVIGATION
+BODY
 *************************/
 
-nav {
-	text-align: center;
-	padding: 10px 0;
-	margin: 20px 0 0;
+body {
+	font-family: 'Open Sans', sans-serif;
 }
+
+body {
+	background-color: #fff;
+	color: #999;
+}
+
+
+/*************************
+FOOTER
+*************************/
 
 footer {
 	font-size: 0.75em;
@@ -48,32 +103,5 @@ footer {
 	color: #ccc;
 }
 
-a {
-	color: #6ab47b;
-}
-/* green header */
-header {
-	background: #6ab47b;
-	border-color: #599a68;
-}
 
-h1, h2 {
-	color: #ffffff;
-}
-/* nav background on mobile devices */
-nav {
-	background: #599a68;
-}
 
-nav a, nav a:visited {
-	color: #ffffff;
-}
-
-nav a.selected, nav a:hover {
-	color: #32673f;
-}
-/* site body */
-body {
-	background-color: #fff;
-	color: #999;
-}
